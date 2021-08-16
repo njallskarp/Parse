@@ -1,0 +1,7 @@
+read as object:
+  firstName:
+    str after 'name:'
+    str before: ','
+  lastName:
+    str after ','
+    str before '$'

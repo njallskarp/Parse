@@ -3,11 +3,18 @@
 	"version": "0.1.0",
 	"description": "Scripting language for parsing text documents",
 	"main": "index.ts",
-	"type": "module",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1",
 		"start": "nodemon src"
 	},
 	"author": "Njall Skarphedinsson",
-	"license": "MIT"
+	"license": "MIT",
+	"dependencies": {
+		"@types/node": "^16.6.1"
+	},
+	"devDependencies": {
+		"nodemon": "^2.0.12",
+		"ts-node": "^10.2.0",
+		"typescript": "^4.3.5"
+	}
 }
